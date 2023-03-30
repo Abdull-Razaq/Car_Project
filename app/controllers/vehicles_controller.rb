@@ -4,7 +4,7 @@ class VehiclesController < ApplicationController
     # GET /vehicle
   def index
     vehicles = Vehicle.all
-    render json: vehicles
+    render json: vehicles, only: [:id, :make, :model, :transmission, :fuel_type]
   end
 
   # POST /vehicles
@@ -16,7 +16,7 @@ class VehiclesController < ApplicationController
   # GET /vehicles/:id
   def show
     vehicle = find_vehicle
-    render json: vehicle
+    render json: vehicle, only: [:id, :make, :model, :transmission, :fuel_type]
   end
 
   # PATCH /vehicles/:id
@@ -46,4 +46,5 @@ class VehiclesController < ApplicationController
   def render_not_found_response
     render json: { error: "Vehicle not found" }, status: :not_found
   end
+
 end
