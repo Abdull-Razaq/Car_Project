@@ -13,7 +13,7 @@ function VehicleCard({ vehicle, onDeleteVehicle }) {
 
     return (
         <ul className="card">
-            <li>
+            <li className="vehicle_card">
             <h3>Vehicle Make: {make}</h3>
             <h4>Vehicle Model: {model}</h4>
             <h5>Vehicle Transmission: {transmission}</h5>
