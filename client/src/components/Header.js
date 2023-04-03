@@ -4,10 +4,7 @@ function Header() {
     return (
       <header>
         <h1>
-          Vehicle
-          <span className="logo" role="img">
-           🚗
-          </span>
+          Vehicle Details
         </h1>
       </header>
     );

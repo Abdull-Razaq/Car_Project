@@ -13,3 +13,9 @@ require 'faker'
     vehicle.save
 
 end
+
+puts "Users..."
+# user1 = User.create(email: "mha44@gmail.com", username: "MHGG")
+# user2 = User.create(email: "yuiooi04@gmail.com", username: "YHHH")
+
+puts 'Done seeding!!'

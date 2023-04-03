@@ -66,11 +66,8 @@ input:focus {
 .card {
   margin: 1rem;
   font-size: 0;
-}
-
-.vehicle_card {
-   display: inline-block;
-  width: 33.33%;
+  display: inline-block;
+  width: 30%;
   font-size: 16px;
   text-align: center;
 }
@@ -122,6 +119,10 @@ header h1 {
 
 body {
   font-family: "Playfair Display", serif;
+  background-image: url("./components/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
 }
 
 h2 {
