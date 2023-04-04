@@ -1,6 +1,7 @@
 import React from "react";
 import VehiclePage from "./VehiclePage";
 import Header from "./Header";
+import Manufacturers from "./Manufacturer";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <VehiclePage />
-
+      <Manufacturers />
     </div>
   )
 
